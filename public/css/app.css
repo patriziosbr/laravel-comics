@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;
+
+0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap);* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header .bg-top {
+  background-color: #0282F9;
+}
+
+header .bg-blue {
+  max-width: 1170px;
+  margin: auto;
+  height: 30px;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12px;
+}
+
+header .bg-blue .additional {
+  margin-left: 16px;
+}
+
+header nav {
+  max-width: 1170px;
+  margin: 0 auto;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 0 8px;
+}
+
+header nav ul li a {
+  color: #434343;
+  text-decoration: none;
+}
+
+header nav ul li a.active,
+header nav ul li a:hover {
+  color: #0282F9;
+}
+
+header nav .cerca {
+  font-weight: 600;
+}
+
+header .jumbotron {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+header .jumbotron img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+header .jumbotron .container {
+  max-width: 1170px;
+  margin: 0 auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header .jumbotron .container .absolute {
+  height: 40px;
+  width: 150px;
+  background-color: #0282F9;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: absolute;
+  bottom: -15px;
+  left: 200px;
+  transform: translate(-50%, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
