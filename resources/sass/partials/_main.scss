@@ -1,0 +1,70 @@
+.container {
+    
+    background-color: $bg-main;
+    .comics {
+        max-width: $max-w;
+        margin: 0 auto;
+        padding: 64px 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .comic {
+            height: 300px;
+            margin: 8px;
+            width: calc(100% / 6 - 32px);
+            
+            img {
+                width: 100%;
+                padding: 4px;
+            }
+            p {
+                color: $txt-white;
+            }
+        }
+
+        .button {
+            background-color: $electric-blue;
+            width: 200px;
+            height: 40px;
+            font-size: 14px;
+            font-weight: 600;
+            color: $txt-white;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 32px;
+        }
+    }
+}
+.bg-blue {
+    background-color: $electric-blue;
+    height: 140px;
+    .center {
+        height: 100%;
+        max-width: $max-w;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .icon {
+            height: 80px;
+            display: flex;
+            align-items: center;
+            margin: 0 16px;
+            img {
+                height: 50px;
+            }
+            .svg {
+                height: 30px;
+            }
+            p {
+                font-size: 16px;
+                color: $txt-white;
+                text-transform: uppercase;
+                margin-left: 16px;
+            }
+        }
+    }
+}
+

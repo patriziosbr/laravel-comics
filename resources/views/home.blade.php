@@ -5,16 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href={{ asset("css/app.css") }}>
 
-        <title>Laravel</title>
+        <title>Laravel - Comics</title>
 
     </head>
     <body>
         
         @include('partials/header')
 
-        <h1>
-            hello
-        </h1>
+        <main>
+            @include('partials/main')     
+        </main>
+
+        @include('partials/footer')
 
 
 

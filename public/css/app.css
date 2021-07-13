@@ -99,6 +99,112 @@ header .jumbotron .container .absolute {
   color: #fff;
 }
 
+.container {
+  background-color: #1C1C1C;
+}
+
+.container .comics {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 64px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container .comics .comic {
+  height: 300px;
+  margin: 8px;
+  width: calc(100% / 6 - 32px);
+}
+
+.container .comics .comic img {
+  width: 100%;
+  padding: 4px;
+}
+
+.container .comics .comic p {
+  color: #fff;
+}
+
+.container .comics .button {
+  background-color: #0282F9;
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.bg-blue {
+  background-color: #0282F9;
+  height: 140px;
+}
+
+.bg-blue .center {
+  height: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-blue .center .icon {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin: 0 16px;
+}
+
+.bg-blue .center .icon img {
+  height: 50px;
+}
+
+.bg-blue .center .icon .svg {
+  height: 30px;
+}
+
+.bg-blue .center .icon p {
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 16px;
+}
+
+footer {
+  height: 400px;
+}
+
+footer .container-footer {
+  max-width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+footer .container-footer .bg-lists {
+  width: 50%;
+  height: 100%;
+}
+
+footer .container-footer .bg-logo {
+  position: absolute;
+  right: 0;
+  top: -25%;
+}
+
+footer .final-info {
+  height: 100px;
+  background-color: #1C1C1C;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }

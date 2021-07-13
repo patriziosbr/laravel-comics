@@ -1,0 +1,25 @@
+footer {
+    height: 400px;
+    .container-footer {
+        max-width: $max-w;
+        height: 100%;
+        margin: 0 auto;
+        // border: 1px solid salmon;
+        position: relative;
+        overflow: hidden;
+        .bg-lists {
+            width: 50%;
+            height: 100%;
+            // border: 1px solid red;
+        }
+        .bg-logo {
+            position: absolute;
+            right: 0;
+            top: -25%;
+        }
+    }
+    .final-info {
+        height: 100px;
+        background-color: $bg-main;
+    }
+}
